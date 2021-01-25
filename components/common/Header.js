@@ -185,18 +185,18 @@ class Header extends Component {
           }`}
         >
           <div className="d-none d-sm-flex">
-            <Link href="/collection">
+            {/* <Link href="/collection">
               <a href="/collection" className="mr-4 font-color-black">Shop</a>
-            </Link>
+            </Link> */}
             <Link href="/about">
               <a href="/about" className="font-color-black">
-                About
+                
               </a>
             </Link>
           </div>
           <div className="logo-container">
             <img
-              src={`/icon/${showMobileMenu ? 'cross' : 'menu'}.svg`}
+              src={`/icon/v13_34.png`}
               onClick={this.toggleMobileMenu}
               className="w-32 mr-1 d-block d-sm-none"
               alt="Menu icon"
@@ -204,7 +204,7 @@ class Header extends Component {
             <Link href="/">
               <a>
                 <img
-                  src="/images/commerce.svg"
+                  src="/images/v13_34.png"
                   className="logo cursor-pointer"
                   alt="Logo"
                 />
